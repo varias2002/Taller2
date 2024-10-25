@@ -1,0 +1,17 @@
+<body class="container mt-5">
+    <h2 class="mb-4">Eliminar Empleado</h2>
+    <form id="deleteStaffForm" class="needs-validation" novalidate>
+        <div class="form-group">
+            <label for="employeeId">Seleccionar ID del Empleado:</label>
+            <select id="employeeId" class="form-control" required>
+                <option value="">Seleccione un ID de Empleado</option>
+                <!-- Aquí se pueden agregar opciones dinámicamente -->
+            </select>
+            <div class="invalid-feedback">
+                Por favor, seleccione un ID de empleado.
+            </div>
+        </div>
+        <button type="submit" class="btn btn-danger">Eliminar Empleado</button>
+    </form>
+    <div id="response" class="mt-4"></div>
+</body>
